@@ -1,0 +1,49 @@
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+}
+.btn {
+  padding: 14px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  border: none;
+}
+.btn-outline {
+  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  background: #7289DA;
+  align-content: center;
+}
+.btn-primary {
+  background: #7289DA;
+  color: #fff;
+}
+.btn-secondary {
+  background: #7289DA;
+  color: #fff;
+}
+
+
